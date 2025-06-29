@@ -2,7 +2,7 @@ import { User } from "../models/userModel.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import cloudinary from "../utils/cloudinary.js";
-import getDataUri from "../utils/dataUri.js";
+import getDataUri from "../utils/datauri.js";
 
 //if we are sending file also from backend and we are not using multer this will give a error and this  will give undefined
 //so always use mullter in form if you are using file
