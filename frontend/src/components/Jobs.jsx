@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './shared/Navbar'
 import FilterCard from './FilterCards'
-import Job from './job';
+import Job from "./Job";
 import { useSelector } from 'react-redux';
 import {motion} from 'framer-motion'
 
-// const jobsArray = [1, 2, 3, 4, 5, 6, 7, 8];
+// const jobsArray = [1, 2, 3, 4, 5, 6, 7, 8];cls
+//final change here
 
 const Jobs = () => {
     const { allJobs, searchedQuery } = useSelector(store => store.job);
