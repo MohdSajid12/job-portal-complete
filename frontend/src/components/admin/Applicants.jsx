@@ -35,7 +35,7 @@ const Applicants = () => {
       <Navbar />
       <div className='max-w-7xl mx-auto'>
 
-        <h1>Applicat {applicants.applications.length}</h1>
+        <h1>Applicat {applicants.applications?.length}</h1>
 
         <ApplicantsTable />
 
